@@ -6,7 +6,9 @@
 
 ## 📌 About
 
-## Tracalorie was originally a project exercise from **Brad Traversy's JavaScript course**, which I rebuilt using **React and TypeScript** to practice modern React concepts.
+### Tracalorie was originally a project exercise from **Brad Traversy's JavaScript course**, which I rebuilt using **React and TypeScript** to practice modern React concepts.
+
+---
 
 ## ✨ Features
 
@@ -39,5 +41,6 @@ npm run dev
 
 ---
 
-👩‍💻 Author
-Zohreh Parvandi
+## 👩‍💻 Author
+
+**Zohreh Parvandi**
