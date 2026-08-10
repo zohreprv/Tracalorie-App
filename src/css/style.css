@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+} /*# sourceMappingURL=style.css.map */
+
+.footer-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.social-link {
+  width: 38px;
+  height: 38px;
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.15) translateY(-2px);
+  color: white !important;
+}
+
+/* Telegram */
+.social-link.telegram:hover {
+  background-color: #229ed9 !important;
+}
+
+/* LinkedIn */
+.social-link.linkedin:hover {
+  background-color: #0a66c2 !important;
+}
+
+/* GitHub */
+.social-link.github:hover {
+  background-color: #333 !important;
+}
